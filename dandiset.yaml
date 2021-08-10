@@ -2,29 +2,117 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000125
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
+about: []
+access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  - name: behavioral approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: behavioral technique
+    schemaKey: MeasurementTechniqueType
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 3237464381
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: 'Sharda, Saksham (2021) Neural population dynamics during reaching: analysis
-  dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000125/draft'
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
+    name: Rhesus monkey
+    schemaKey: SpeciesType
+  variableMeasured:
+  - Units
+  - Position
+citation: 'Churchland, Mark; Kauffman, Matthew; Cunningham, John; Foster, Justin;
+  Shenoy, Krishna; Ryu, Stephen; Nuyujukian, Paul (2021) Neural population dynamics
+  during reaching: analysis dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000125/draft'
 contributor:
 - affiliation: []
   email: saksham20.sharda@gmail.com
-  includeInCitation: true
+  includeInCitation: false
   name: Sharda, Saksham
   roleName:
   - dcite:ContactPerson
+  schemaKey: Person
+- affiliation: []
+  email: mc3502@columbia.edu
+  includeInCitation: true
+  name: Churchland, Mark
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation: []
+  email: mattkaufman@uchicago.edu
+  includeInCitation: true
+  name: Kauffman, Matthew
+  roleName:
+  - dcite:Author
+  - dcite:DataCollector
+  - dcite:DataCurator
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Cunningham, John
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Foster, Justin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Shenoy, Krishna
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Ryu, Stephen
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- affiliation: []
+  includeInCitation: true
+  name: Nuyujukian, Paul
+  roleName:
+  - dcite:Author
   schemaKey: Person
 description: 'Dataset of raw lfp traces, behavior (eye positions, cursor positions)
   and other task related data of Monkey (Jenkins) performing the maze task as described
   in the associated paper. Acquisition system: Blackrock 96 channel Utah arrays implanted
   in the M1 and PMd brain area.  '
+ethicsApproval: []
 id: DANDI:000125/draft
 identifier: DANDI:000125
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000125/versions/draft/assets/
 name: 'Neural population dynamics during reaching: analysis dataset'
+protocol: []
+relatedResource:
+- identifier: 10.1038/nature11129
+  name: Neural Population dynamics during reaching
+  relation: dcite:IsDescribedBy
+  repository: Nature
+  url: https://www.nature.com/articles/nature11129
+repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.5.1
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000125/draft
 version: draft
+wasGeneratedBy: []
