@@ -5,31 +5,9 @@
 about: []
 access: []
 assetsSummary:
-  approach:
-  - name: electrophysiological approach
-    schemaKey: ApproachType
-  - name: behavioral approach
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: behavioral technique
-    schemaKey: MeasurementTechniqueType
-  - name: spike sorting technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 3237464381
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Rhesus monkey
-    schemaKey: SpeciesType
-  variableMeasured:
-  - Units
-  - Position
 citation: 'Churchland, Mark; Kauffman, Matthew; Cunningham, John; Foster, Justin;
   Shenoy, Krishna; Ryu, Stephen; Nuyujukian, Paul (2021) Neural population dynamics
   during reaching: analysis dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000125/draft'
