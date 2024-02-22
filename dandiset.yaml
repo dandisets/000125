@@ -3,13 +3,15 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
 citation: 'Churchland, Mark; Kauffman, Matthew; Cunningham, John; Foster, Justin;
-  Shenoy, Krishna; Ryu, Stephen; Nuyujukian, Paul (2022) Neural population dynamics
+  Shenoy, Krishna; Ryu, Stephen; Nuyujukian, Paul (2024) Neural population dynamics
   during reaching: analysis dataset (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000125/draft'
 contributor:
 - affiliation: []
@@ -89,7 +91,7 @@ relatedResource:
   repository: Nature
   schemaKey: Resource
   url: https://www.nature.com/articles/nature11129
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
